@@ -11,6 +11,7 @@
     <header>
       {.section website}
         <h1>
+          <p>Hello, World!</p>
           <a href="/" data-content-field="site-title">
             {.section logoImageUrl}
              <img src="{logoImageUrl}?format=original" alt="{siteTitle}" />
@@ -19,7 +20,7 @@
             {.end}
           </a>
         </h1>
-        
+
         {.section siteTagLine}
           <p>{@}</p>
         {.end}
@@ -40,6 +41,6 @@
     <script type="text/javascript" src="/scripts/site-bundle.js"></script>
 
     {squarespace-footers}
-    
+
   </body>
-</html> 
+</html>
